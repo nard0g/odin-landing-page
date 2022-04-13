@@ -1,0 +1,54 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+}
+
+.card-wrapper {
+    background-color: white;
+    width: 100vw;
+    height: 450px;
+}
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+    width: 100vw;
+    height: 450px;
+}
+
+.call-to-action-wrapper {
+    background-color: white;
+    width: 100vw;
+    height: 450px;
+}
+
+.footer {
+    background-color: #1F2937;
+    width: 100vw;
+    height: 90px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+
+.header-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
