@@ -1,41 +1,75 @@
 body {
     font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     background-color: #1F2937;
-    width: 100vw;
-    height: 450px;
-    display: flex;
+    width: 72vw;
+    height: 708px;
+    padding-left: 14vw;
+    padding-right: 14vw;
 }
 
 .card-wrapper {
     background-color: white;
-    width: 100vw;
-    height: 450px;
+    width: 72vw;
+    height: 660px;
+    padding-left: 14vw;
+    padding-right: 14vw;
 }
 
 .quote-wrapper {
     background-color: #E5E7EB;
-    width: 100vw;
-    height: 450px;
+    width: 72vw;
+    height: 567px;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+    display:flex;
+    align-items: center;
 }
+
+figcaption {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10vw;
+}
+
+
 
 .call-to-action-wrapper {
     background-color: white;
-    width: 100vw;
+    width: 72vw;
     height: 450px;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     background-color: #1F2937;
-    width: 100vw;
-    height: 90px;
+    width: 72vw;
+    height: 120px;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 li {
@@ -45,11 +79,99 @@ li {
 }
 
 .header-header-wrapper {
-    /*  TODO: Fix flex issue-not flexing  */
     display: flex;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
-.links {
+.links ul {
     display: flex;
+    gap: 35px;
+}
+
+.hero-content {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.hero-image {
+    height: 310px;
+    width: 700px;
+    background-color: gray;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    height: 270px;
+    width: 450px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+/* TODO: .card-box not appearing. need to fix this */
+.card-box {
+    height: 75px;
+    width: 75px;
+    border: 4px #3882F6;
+    border-radius: 10px;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    width: 1350px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.call-to-action-box h3 {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.call-to-action-box p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.call-to-action-text {
+    margin-left: 250px;
+}
+
+.call-to-action-box button {
+    margin-right: 250px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #E5E7EB;
 }
