@@ -131,12 +131,37 @@ li {
     border: none;
 }
 
-/* TODO: .card-box not appearing. need to fix this */
+.card-holder {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 52px;
+    font-weight: 900;
+    margin: 60px;
+}
+
+.card {
+    width: 210px;
+    margin: 50px;
+}
+
+.card p {
+    color: #1F2937;
+    font-size: 22px;
+    text-align: center;
+}
+
 .card-box {
-    height: 75px;
-    width: 75px;
-    border: 4px #3882F6;
-    border-radius: 10px;
+    height: 210px;
+    width: 210px;
+    outline: 6px solid #3882F6;
+    border-radius: 15px;
+
 }
 
 .call-to-action-box {
